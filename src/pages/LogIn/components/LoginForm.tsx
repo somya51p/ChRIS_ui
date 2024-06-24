@@ -103,6 +103,7 @@ class LoginFormComponent extends React.Component<AllProps, IState> {
         isShowPasswordEnabled
         onChangePassword={this.handlePasswordChange}
         isValidPassword={this.state.isValidPassword}
+        isShowPasswordEnabled
         rememberMeLabel="Keep me logged in for 30 days."
         isRememberMeChecked={this.state.isRememberMeChecked}
         onChangeRememberMe={this.onRememberMeClick}
